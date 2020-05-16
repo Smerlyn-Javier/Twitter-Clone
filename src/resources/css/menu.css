@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap');
+
+
+.menu-container{
+    display: grid;
+    padding-left: 40%;
+    padding-right: 20px;
+    grid-row-gap:7px;
+    grid-template-rows: auto;
+}
+
+.twitter-home-icon{
+    height: 27px;
+    width:27px;
+}
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-size: 19px;
+    margin: 7px;
+}
+
+.menu-icon{
+    margin-right: 20px;
+    height: 25px;
+    width: 25px;
+}
+
+.menu-item{
+    color: white;
+    border-radius: 50px;
+    margin-top: 1px;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: 'Noto Sans JP', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.menu-item:hover{
+    color: #1CA1F2;
+    background-color: #1D2D3E;
+    transition: 0.1s;
+}
+
+.menu-item-user{
+    margin-top: 70% !important;
+    color: white;
+    border-radius: 50px;
+    margin-top: 1px;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: 'Noto Sans JP', sans-serif;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    justify-content:space-between;
+    width: 70%;
+}
+
+.menu-item-user:hover{
+    background-color: #1D2D3E;
+    transition: 0.1s;
+}
+.username{
+    margin-top: 5px;
+    font-size: 12px;
+    color: #8799A6;
+    font-weight: 500;
+}
+.user-image{
+    height: 40px;
+    width:40px;
+    margin: 5px;
+    border-radius: 100px;
+}
+.user-name{
+    margin: 5px;
+}
+
+.user-button{
+    margin: 10px;
+}
+
+.user-nama-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.twitter-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    color: white;
+    border-radius: 50px;
+    padding:14px;
+    background-color: #1CA1F2;
+    text-decoration: none;
+    font-size: 15px;
+    width: 60%;
+    height: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.img-feather{
+    display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .label{
+        display: none;
+    }
+    .img-feather{
+        height: 25px;
+        width: 25px;
+        display: inline;
+    }
+    .twitter-button{
+        width: auto;
+        height: auto;
+        padding: 10px;
+    }
+
+}
