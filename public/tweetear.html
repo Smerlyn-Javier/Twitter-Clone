@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="/assets/icons/twitter-icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/body.css">
+    <link rel="stylesheet" href="/css/tweetear.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://rawgit.com/jackmoore/autosize/master/dist/autosize.min.js"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="content-container">
+
+            <div class="new-tweet">
+
+                <div class="img-user">
+                    <img class="user-image-tweet" src="/assets/image/user-image.jpg" alt="">
+                </div>
+
+                <div class="tweet-text">
+                    <textarea id="note" placeholder="¿Qué estás pensando?"></textarea>
+
+                    <div class="buttons-bar">
+
+                        <div class="opt">
+                            <a class="opt-btn-tweet" href="">
+                                <img class="opt-btn-tweet-icon" src="/assets/icons/twitter-picture.svg" alt="">
+                            </a>
+                            <a class="opt-btn-tweet" href="">
+                                <img class="opt-btn-tweet-icon" src="/assets/icons/twitter-gif.svg" alt="">
+                            </a>
+                            <a class="opt-btn-tweet" href="">
+                                <img class="opt-btn-tweet-icon" src="/assets/icons/twitter-grafic.svg" alt="">
+                            </a>
+                            <a class="opt-btn-tweet" href="">
+                                <img class="opt-btn-tweet-icon" src="/assets/icons/twitter-smile.svg" alt="">
+                            </a>
+                            <a class="opt-btn-tweet" href="">
+                                <img class="opt-btn-tweet-icon" src="/assets/icons/twitter-calendar.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="twitter-button-tweet">
+                            <h3>Twittear</h3>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+         autosize(document.getElementById("note"))
+    </script>
+</body>
+
+</html>

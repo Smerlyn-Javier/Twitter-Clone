@@ -1,0 +1,111 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap");
+
+.hero-image{
+   background-color: saddlebrown;
+}
+.img-portada{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.user-image-profile{
+    margin-bottom: 225px;
+}
+
+.img-usuario{
+    top: 325%;
+    position: relative;
+    z-index: 2;
+    width: 125px;
+    height: 125px;
+    border-radius: 200px;
+    object-fit: cover;
+    border: 4px solid black;
+}
+
+.info{
+    padding-left: 12px;
+}
+
+.profile-name{
+    color: white;
+    font-weight: 500;
+    font-size: 19px;
+    margin: 5px 3px;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+.profile-name:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.profile-user-name{
+    color: #8899A6;
+    font-weight: 300;
+    font-size: 15px;
+    margin: 5px 3px;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+.opt-bar-profile{
+    margin-left: 50%;
+    margin-top: -64px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.twitter-button-tweet-profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 10px 10px 10px;
+    border-radius: 50px;
+    padding:12px 22px;
+    color: white;
+    background-color: #1CA1F2;
+    text-decoration: none;
+    font-size: 15px;
+    height: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.twitter-button-tweet-profile:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #BA3457;
+}
+
+
+.content-header-profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
+    margin: 12px;
+    border: 1px solid #1CA1F2;
+}
+
+.content-header-profile:hover{
+    background-color: #1D2D3E !important;
+    transition: 0.1s !important;
+}
+
+.text-profile{
+    margin: 10px 10px 20px 12px;
+    color: white;
+    font-weight: 300;
+    font-size: 15px;
+    font-family: "Noto Sans JP", sans-serif;
+}

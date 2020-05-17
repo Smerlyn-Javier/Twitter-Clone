@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="/css/suggestions.css">
     <link rel="stylesheet" href="/css/cards.css">
     <link rel="stylesheet" href="/css/media-query.css">
+    <link rel="stylesheet" href="/css/sidebar.css">
+    <link rel="stylesheet" href="/css/profile.css">
     <script src="https://rawgit.com/jackmoore/autosize/master/dist/autosize.min.js"></script>
     <title>Inicio / Twitter</title>
 </head>
@@ -109,6 +111,56 @@
 
         <div class="content-container">
             
+            <div class="profile">
+                <div class="img-content">
+
+                    <div class="hero-image">
+                       <img class="img-portada" src="https://pbs.twimg.com/profile_banners/607316347/1428174051/1500x500" alt="">
+                    </div>
+
+                    <div class="user-image-profile">
+                     <img class="img-usuario" src="https://pbs.twimg.com/profile_images/574694780942180353/a9-g9eWP_400x400.png" alt="">
+                    </div>
+
+                    <div class="opt-bar-profile">
+                        <a class="content-header-profile" href="">
+                            <img class="content-header-icon" src="/assets/icons/twitter-star.svg" alt="">
+                        </a>
+                        <a class="content-header-profile" href="">
+                            <img class="content-header-icon" src="/assets/icons/twitter-star.svg" alt="">
+                        </a>
+
+                        <div class="twitter-button-tweet-profile"> <h3>Siguiendo</h3></div>
+
+                    </div>
+                    
+                    <div class="info">
+                        <h3 class="profile-name">Home Adore</h3>
+                        <h3 class="profile-user-name">@HomeAdore</h3>
+                    </div>
+
+                    <div class="text-profile">
+                        <h3 class="tweet-text" > 🏚 Increibles apartamentos a buen precio.
+                            <a class="hastag">#deleniti</a> repellendus dolores perferendis expedita. Animi dignissimos 
+                            magnam tempore, atque amet quod natus? 🌿🏚🏚🏚
+                        </h3>
+                        <a class="hastag">#Lolapalusa</a>
+                        <a class="hastag">. www.google.com.do</a> 
+                    </div>
+
+                    <div class="fallowers">
+
+                        <h3 class="fallows">29</h3>
+                        <h3 class="subtitle"> Siguiendo</h3>
+        
+                        <h3 class="fallowers">11</h3>
+                        <h3 class="subtitle"> Seguidores</h3>
+                    </div>
+
+                </div>
+
+            </div>
+
             <div class="new-tweet">
 
              <div class="img-user">
@@ -145,7 +197,6 @@
              </div>
 
             </div>
-
 
             <div class="tweets">
 
@@ -410,9 +461,6 @@
             </div>
 
             
-
-
-
             
         </div>
        
@@ -432,7 +480,7 @@
         </div>
 
         <div class="button-float">
-            <a class="content-header" href="">
+            <a class="content-header" href="/tweetear.html">
                 <img class="content-header-icon" src="/assets/icons/twitter-feather.svg" alt="">
             </a>
         </div>
@@ -551,8 +599,106 @@
 
         </div>
 
+
+
+         <!-- sidebar -->
+    <div class="sidebar-wrapper">
+        <div class="sidebar">
+
+        <div class="sidebar-title">
+           <h3 class="title-sidebar">Informacion de la cuenta</h3> 
+           <a class="content-header" id="cerrar" href="#">
+            <img class="content-header-icon" src="/assets/icons/twitter-star.svg" alt="">
+        </a>
+        </div>
+
+        <div class="info-user">
+            <img class="user-image-head-sidebar" src="/assets/image/user-image.jpg" alt="">
+            <div class="name-sidebar">
+                <h3 class="user-name-tweet">Smerlyn Javier</h3>
+                <h3 class="user-name-profile">@smerlyn001</h3>
+            </div>
+
+            <div class="fallowers">
+
+                <h3 class="fallows">29</h3>
+                <h3 class="subtitle"> Siguiendo</h3>
+
+                <h3 class="fallowers">11</h3>
+                <h3 class="subtitle"> Seguidores</h3>
+            </div>
+
+            <div class="submenu">
+                <div class="submenu-list">
+                    <h3 class="icon-submenu">♤</h3>
+                    <h3 class="label-submenu">Perfil</h3>
+                </div>
+                <div class="submenu-list">
+                    <h3 class="icon-submenu">⚠︎</h3>
+                    <h3 class="label-submenu">Temas</h3>
+                </div>
+                <div class="submenu-list">
+                    <h3 class="icon-submenu">⎈</h3>
+                    <h3 class="label-submenu">Listas</h3>
+                </div>
+                <div class="submenu-list">
+                    <h3 class="icon-submenu">⏏︎</h3>
+                    <h3 class="label-submenu">Guardados</h3>
+                </div>
+                <div class="submenu-list">
+                    <h3 class="icon-submenu">♡</h3>
+                    <h3 class="label-submenu">Momentos</h3>
+                </div>
+            </div>
+
+            <div class="submenu">
+                <div class="submenu-list">
+                    <h3 class="label-submenu">Cerrar sesion</h3>
+                </div>
+            </div>
+
+        </div>
+
+
+        </div>
     </div>
- <script>autosize(document.getElementById("note"))</script>
+
+
+
+
+
+
+
+
+
+    </div>
+         <!-- sidebar -->
+
+
+
+
+ <script>
+ autosize(document.getElementById("note"))
+
+ const user = document.querySelector('.user-image-head');
+ const xBtn = document.getElementById('cerrar')
+ const sidebar = document.querySelector('.sidebar');
+ const sidebarWrapper = document.querySelector('.sidebar-wrapper');
+ // Sidebar
+
+
+
+user.addEventListener('click', () => {
+	sidebar.classList.add('sidebar-display');
+	sidebarWrapper.classList.add('sidebar-wrapper-display');
+});
+
+xBtn.addEventListener('click', () => {
+	sidebar.classList.remove('sidebar-display');
+	sidebarWrapper.classList.remove('sidebar-wrapper-display');
+});
+
+</script>
 </body>
 
 

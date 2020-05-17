@@ -1,0 +1,76 @@
+.container{
+    
+}
+
+.user-image-tweet{
+    height: 49px;
+    width:49px;
+    margin: 5px 15px;
+    border-radius: 100px;
+}
+
+.tweet-text textarea{
+    width: 100%;
+    padding: 12px ;
+    box-sizing: border-box;
+    border: none;
+    color: white;
+    font-weight: 400;
+    font-size: 19px;
+    background-color: #16202C;
+    font-family: "Noto Sans JP", sans-serif;
+  }
+  
+  .tweet-text textarea:focus{
+      outline: none;
+  }
+
+  .buttons-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.opt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.opt-btn-tweet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    height: 37px;
+    width: 37px;
+
+}
+
+.opt-btn-tweet-icon{
+    height: 18px;
+    width: 18px;
+}
+
+.twitter-button-tweet{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 10px 10px 10px;
+    border-radius: 50px;
+    padding:12px 19px;
+    color: #888F94;
+    background-color: #1D608E;
+    text-decoration: none;
+    font-size: 15px;
+    height: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.twitter-button-tweet:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #1CA1F2;
+}

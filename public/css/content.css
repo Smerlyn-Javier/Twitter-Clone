@@ -10,7 +10,7 @@
   flex-direction: column;
   width: 40%;
   max-width: 598px;
-  padding-top: 70px;
+  padding-top: 50px;
   /* background-color: white; */
 }
 .button{
@@ -64,6 +64,7 @@
 
 .new-tweet{
     display: grid;
+    padding-top: 10px;
     border-bottom: 10px solid #253341;
    grid-template-columns: 75px auto;
 }
