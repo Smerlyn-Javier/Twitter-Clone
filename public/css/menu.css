@@ -2,8 +2,10 @@
 
 
 .menu-container{
+    position: fixed;
+    left: 13%;
     display: grid;
-    padding-left: 40%;
+    /* padding-left: 40%; */
     padding-right: 20px;
     grid-row-gap:7px;
     grid-template-rows: auto;
