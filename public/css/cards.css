@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap");
+
+.tweets{
+    padding: 15px;
+    border-bottom: 1px solid #39444c;
+}
+
+.header-tweet{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-user-tweet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user-image-public-tweet{
+    height: 49px;
+    width:49px;
+    border-radius: 100px;
+}
+
+
+.info-tweet{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-name-tweet{
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    margin: 0px 3px;
+    font-family: "Noto Sans JP", sans-serif;
+    
+}
+.user-name-tweet:hover{
+    text-decoration: underline;
+}
+
+.user-name-profile{
+    color: #8899A6;
+    font-weight: 300;
+    font-size: 15px;
+    margin: 0px 3px;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+.time{
+    color: #8899A6;
+    font-weight: 300;
+    font-size: 15px;
+    margin: 0px 3px;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+.tweet-description{
+    margin-left: 7px;
+}
+
+
+.img-tweet-card{
+    margin: 10px 10px 10px 60px;
+}
+.img-tweet{
+    height: 300px;
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.social-buttons{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.social-buttons a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #8799A6;
+    font-weight: 100 !important;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+
+
+.social-button-tweet-coment{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-button-tweet-coment:hover{
+    color: #1CA1F2;
+}
+.coment-icon{
+    margin-right: 2px;
+   border-radius: 50px;
+   height: 30px;
+   width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.coment-icon:hover{
+    color: #1CA1F2;
+    background-color: #1D2D3E !important;
+    transition: 0.1s !important;
+}
+
+
+.social-button-tweet-retwittear{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-button-tweet-retwittear:hover{
+    color: #59BC6D;
+}
+.retwittear-icon{
+    margin-right: 2px;
+   border-radius: 50px;
+   height: 30px;
+   width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.retwittear-icon:hover{
+    color: #59BC6D;
+    background-color: #223639 !important;
+    transition: 0.1s !important;
+}
+
+.social-button-tweet-like{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-button-tweet-like:hover{
+    color: #C5395E;
+}
+.like-icon{
+    margin-right: 2px;
+   border-radius: 50px;
+   height: 30px;
+   width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.like-icon:hover{
+    color: #C5395E;
+    background-color: #2E2938 !important;
+    transition: 0.1s !important;
+}
+
+
+.social-button-tweet-send{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-button-tweet-send:hover{
+    color: #1CA1F2;
+}
+.send-icon{
+    margin-right: 2px;
+   border-radius: 50px;
+   height: 30px;
+   width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.send-icon:hover{
+    color: #1CA1F2;
+    background-color: #1D2D3E !important;
+    transition: 0.1s !important;
+}
+
+.text{
+    margin: 5px 10px 20px 60px;
+    color: white;
+    font-weight: 300;
+    font-size: 15px;
+    font-family: "Noto Sans JP", sans-serif;
+}

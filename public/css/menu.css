@@ -49,7 +49,7 @@
 }
 
 .menu-item-user{
-    margin-top: 70% !important;
+    margin-top: 120% !important;
     color: white;
     border-radius: 50px;
     margin-top: 1px;
@@ -61,7 +61,7 @@
     align-items: center;
     font-size: 14px;
     justify-content:space-between;
-    width: 70%;
+    width: 100%;
 }
 
 .menu-item-user:hover{
@@ -105,7 +105,7 @@
     background-color: #1CA1F2;
     text-decoration: none;
     font-size: 15px;
-    width: 60%;
+    width: 90%;
     height: 20px;
     font-weight: 600;
     cursor: pointer;

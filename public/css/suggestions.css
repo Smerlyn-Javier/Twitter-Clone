@@ -1,0 +1,8 @@
+.suggestions-container{
+    position: fixed;
+        top: 8rem;
+        left: 65%;
+        background-color: paleturquoise;
+        width: 35rem;
+        max-width: 348px;
+}

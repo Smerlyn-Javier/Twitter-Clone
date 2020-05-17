@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap");
+
+.content-container {
+  border-left: 1px solid #39444c;
+  border-right: 1px solid #39444c;
+  position: absolute;
+  left: 46%;
+  transform: translate(-50%);
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  max-width: 598px;
+  padding-top: 70px;
+  /* background-color: white; */
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 53px;
+  border-bottom: 1px solid #39444c;
+  position: fixed;
+  z-index: 1;
+  width: 40%;
+  max-width: 598px;
+  left: 46%;
+  transform: translate(-50%);
+  background-color: #16202C;
+}
+
+.title {
+  margin: 12px;
+  color: white;
+  font-weight: 700;
+  font-size: 19px;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.content-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
+    margin: 12px;
+}
+
+.content-header:hover{
+    background-color: #1D2D3E !important;
+    transition: 0.1s !important;
+}
+
+.content-header-icon {
+  height: 25px;
+  width: 25px;
+}
+
+.new-tweet{
+    display: grid;
+    border-bottom: 10px solid #253341;
+   grid-template-columns: 75px auto;
+}
+
+
+.img-user{
+    /* background-color: rosybrown; */
+}
+.tweet-text{
+    /* background-color: royalblue; */
+}
+
+.tweet-text input{
+  width: 100%;
+  padding: 12px ;
+  box-sizing: border-box;
+  border: none;
+  color: white;
+  font-weight: 400;
+  font-size: 19px;
+  background-color: #16202C;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.tweet-text input:focus{
+    outline: none;
+}
+
+.opt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-image-tweet{
+    height: 49px;
+    width:49px;
+    margin: 5px 15px;
+    border-radius: 100px;
+}
+
+.buttons-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.opt-btn-tweet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    height: 37px;
+    width: 37px;
+
+}
+
+.opt-btn-tweet:hover{
+    background-color: #1D2D3E !important;
+    transition: 0.1s !important;
+}
+
+.opt-btn-tweet-icon{
+    height: 18px;
+    width: 18px;
+}
+
+.twitter-button-tweet{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 10px 10px 10px;
+    color: white;
+    border-radius: 50px;
+    padding:12px 19px;
+    background-color: #1CA1F2;
+    text-decoration: none;
+    font-size: 15px;
+    height: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Noto Sans JP', sans-serif;
+}
