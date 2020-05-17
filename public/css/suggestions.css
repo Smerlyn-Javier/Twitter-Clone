@@ -1,8 +1,203 @@
 .suggestions-container{
     position: fixed;
-        top: 8rem;
         left: 65%;
-        background-color: paleturquoise;
         width: 35rem;
         max-width: 348px;
+}
+
+
+
+.search-bar input{
+    margin-top: 10px;
+    width: 100%;
+    padding: 9px 12px ;
+    box-sizing: border-box;
+    border: none;
+    color: white;
+    font-weight: 100;
+    font-size: 15px;
+    border-radius: 50px;
+    background-color: #253341;
+    font-family: "Noto Sans JP", sans-serif;
+  }
+  
+  .search-bar input:focus{
+      outline: none;
+  }
+
+
+  .tendencias{
+    margin-top: 15px;
+    border-radius: 10px;
+    background-color: #192734;
+  }
+
+  .head-tendencia{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 12px;
+      color: white;
+      font-weight: 700;
+      font-size: 19px;
+      font-family: "Noto Sans JP", sans-serif;
+  }
+
+  .setting{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #1CA1F2;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: "Noto Sans JP", sans-serif;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    margin: 5px;
+  }
+
+  .setting:hover{
+    background-color: #1D2D3E !important;
+    transition: 0.1s !important;
+  }
+
+.tweet-tendencia{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-top: 1px solid #39444c;
+}
+
+.tweet-tendencia:hover{
+    background-color: #232E39 !important;
+    transition: 0.1s !important;
+}
+
+  .place{
+    color: #8899A6;
+    font-weight: 500;
+    font-size: 12px;
+    margin: 5px 3px;
+    font-family: "Noto Sans JP", sans-serif;
+  }
+.word{
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 10px 3px;
+    font-family: "Noto Sans JP", sans-serif;
+}
+  .re-tweets{
+    color: #8899A6;
+    font-weight: 500;
+    font-size: 12px;
+    margin: 5px 3px;
+    font-family: "Noto Sans JP", sans-serif;
+  }
+
+  .more{
+    color: #8899A6;
+    font-weight: 500;
+    font-size:19px;
+    margin: 10px 3px;
+    font-family: "Noto Sans JP", sans-serif;
+  }
+  .more:hover{
+    color: #1CA1F2 !important;
+  }
+  .more-container{
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 30px;
+      width: 30px;
+      border-radius: 30px;
+  }
+
+  .more-container:hover{
+    
+    background-color: rgba(54, 80, 109, 0.637) !important;
+    transition: 0.1s !important;
+  }
+
+.see-more{
+    color: #1CA1F2;
+    font-weight: 500;
+    font-size:14px;
+    padding: 19px 12px;
+    font-family: "Noto Sans JP", sans-serif;
+    border-radius: 0px 0px 10px 10px;
+    border-top: 1px solid #39444c;;
+}
+
+.see-more:hover{
+    cursor: pointer;
+    background-color: #232E39 !important;
+    transition: 0.1s !important;
+}
+
+.fallow{
+  margin-top: 15px;
+  border-radius: 10px;
+  background-color: #192734;
+}
+
+.head-fallow{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 12px;
+  color: white;
+  font-weight: 700;
+  font-size: 19px;
+  font-family: "Noto Sans JP", sans-serif;
+  height: 50px;
+}
+
+.user{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #39444c;
+}
+
+.user:hover{
+  background-color: #232E39 !important;
+  transition: 0.1s !important;
+}
+
+.img-user-name{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.name{
+  margin: 5px;
+}
+.fallow-button{
+  margin: 12px;
+  color: #1CA1F2;
+  padding: 8px 18px;
+  border-radius: 30px;
+  border: 1px solid #1CA1F2 ;
+  font-weight: 500;
+  font-size: 14px;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+
+.fallow-button:hover{
+  cursor: pointer;
+  background-color: #1D2D3E;
+}
+
+.user-image-public-fallow{
+  margin: 10px;
+  height: 49px;
+  width:49px;
+  border-radius: 100px;
 }

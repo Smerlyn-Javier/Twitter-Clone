@@ -66,7 +66,7 @@
     margin: 10px 10px 10px 60px;
 }
 .img-tweet{
-    height: 300px;
+    /* height: 300px; */
     width: 100%;
     border-radius: 20px;
     object-fit: cover;
@@ -194,4 +194,12 @@
     font-weight: 300;
     font-size: 15px;
     font-family: "Noto Sans JP", sans-serif;
+}
+
+.hastag{
+    color: #1CA1F2;
+}
+
+.hastag:hover{
+    text-decoration: underline;
 }
